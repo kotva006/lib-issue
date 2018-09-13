@@ -16,6 +16,13 @@
     ],
     "baseUrl": ".",
     "paths": {
+      "@lib-issue/abc": [
+        "libs/abc/src/index.ts"
+      ],
+      "@lib-issue/xyz": [
+        "dist/libs/xyz",
+        "libs/xyz/src/index.ts"
+      ]
     }
   },
   "exclude": [
